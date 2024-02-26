@@ -1,20 +1,48 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <h1>
-        Movie List
-        <a href="{% url 'movies:movie-create' %}" class="btn btn-primary link-to-page">
-            Create
-        </a>
-    </h1>
-    <form method="get" action="" class="form-inline">
-        {{ search_form }}
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h1 class="mb-0">Movie List</h1>
+        <a href="{% url 'movies:movie-create' %}" class="btn btn-primary">Add movie</a>
+    </div>
 
-        <input type="submit" value="🔍">
+    <form method="get" action="" class="mb-3 d-flex justify-content-end">
+        {{ search_form }}
+        <button type="submit" class="btn btn-primary">Search</button>
     </form>
-    <br>
+
+    <form method="get" action="" class="mb-3">
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <label for="release_year">Release year:</label>
+                <input type="text" class="form-control" id="release_year" name="release_year"
+                       placeholder="Enter release year" value="{{ request.GET.release_year }}">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <label for="director">Director:</label>
+                <input type="text" class="form-control" id="director" name="director" placeholder="Enter director name"
+                       value="{{ request.GET.director }}">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <label for="actor">Actor:</label>
+                <input type="text" class="form-control" id="actor" name="actor" placeholder="Enter actor name"
+                       value="{{ request.GET.actor }}">
+            </div>
+        </div>
+        <div class="mt-2">
+            <button type="submit" class="btn btn-primary">Filter</button>
+            <a href="{% url 'movies:movie-list' %}" class="btn btn-secondary">Clear Filter</a>
+        </div>
+    </form>
+
+
     {% if movie_list %}
         <table class="table">
+            <thead>
             <tr>
                 <th>ID</th>
                 <th>Title</th>
@@ -24,39 +52,25 @@
                 <th>Update</th>
                 <th>Delete</th>
             </tr>
-
+            </thead>
+            <tbody>
             {% for movie in movie_list %}
                 <tr>
+                    <td>{{ movie.id }}</td>
+                    <td>{{ movie.title }}</td>
+                    <td>{{ movie.release_year }}</td>
+                    <td>{% for genre in movie.genres.all %}• {{ genre }} {% endfor %}</td>
+                    <td>{{ movie.director }}</td>
                     <td>
-                        {{ movie.id }}
+                        <a href="{% url 'movies:movie-update' pk=movie.id %}" class="btn btn-sm btn-warning">Update</a>
                     </td>
                     <td>
-                        {{ movie.title }}
-                    </td>
-                    <td>
-                        {{ movie.release_year }}
-                    </td>
-                    <td>
-                        {{ movie.genres }}
-                    </td>
-                    <td>
-                        {{ movie.director }}
-                    </td>
-                    <td>
-                        <a href="{% url 'movies:movie-update' pk=movie.id %}">
-                            Update
-                        </a>
-                    </td>
-                    <td>
-                        <a style="color: red"
-                           href="{% url 'movies:movie-delete' pk=movie.id %}">
-                            Delete
-                        </a>
+                        <a href="{% url 'movies:movie-delete' pk=movie.id %}" class="btn btn-sm btn-danger">Delete</a>
                     </td>
                 </tr>
             {% endfor %}
+            </tbody>
         </table>
-
     {% else %}
         <p>There are no movies in the service.</p>
     {% endif %}

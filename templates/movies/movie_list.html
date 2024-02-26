@@ -57,7 +57,7 @@
             {% for movie in movie_list %}
                 <tr>
                     <td>{{ movie.id }}</td>
-                    <td>{{ movie.title }}</td>
+                    <td><a href="{% url 'movies:movie-detail' pk=movie.id %}">{{ movie.title }}</a></td>
                     <td>{{ movie.release_year }}</td>
                     <td>{% for genre in movie.genres.all %}• {{ genre }} {% endfor %}</td>
                     <td>{{ movie.director }}</td>

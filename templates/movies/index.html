@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>Movie Service Home</h1>
+  <p>The Movie service has the following record counts:</p>
+  <ul>
+    <li><strong>Movies:</strong> {{ num_movies }}</li>
+    <li><strong>Actors:</strong> {{ num_actors }}</li>
+    <li><strong>Genres:</strong> {{ num_genres }}</li>
+  </ul>
+{% endblock %}

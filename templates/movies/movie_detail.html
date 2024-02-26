@@ -1,13 +1,18 @@
 {% extends "base.html" %}
 {% block content %}
-	<h1>Car {{ car.model }}</h1>
-  <p>Manufacturer: {{ car.manufacturer.name }}</p>
-  <p>Country: {{ car.manufacturer.country }}</p>
-    {% for driver in car.drivers.all %}
-      <ul>
-        <li>Driver id: {{ driver.id }}</li>
-        <li>Driver name: {{ driver.first_name }} {{ driver.last_name }}</li>
-        <li>License number: {{ driver.license_number }}</li>
-      </ul>
+    <h1>Movie {{ movie.title }}</h1>
+    <p>Release year: {{ movie.release_year }}</p>
+    <p>Country: {{ movie.country }}</p>
+    <p>Director: {{ movie.director }}</p>
+    <p>IMDB rate: {{ movie.imdb }}</p>
+    <p>Duration: {{ movie.runtime }} min.</p>
+    <p>Description: {{ movie.description }}</p>
+    <p>Genres: {% for genre in movie.genres.all %} #{{ genre }} {% endfor %}</p>
+    <h3>Actors:</h3>
+    {% for actor in movie.actors.all %}
+        <ul>
+            <li>Actor id: {{ actor.id }}</li>
+            <li>Actor name: {{ actor.full_name }}</li>
+        </ul>
     {% endfor %}
 {% endblock %}

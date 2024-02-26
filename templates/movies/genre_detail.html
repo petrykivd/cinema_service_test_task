@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>Genre: 
+    {{ genre.name }}
+      <br>
+    <a href="{% url 'movies:genre-delete' pk=genre.id %}" class="btn btn-danger link-to-page">
+      Delete
+    </a>
+
+    <a href="{% url 'movies:genre-update' pk=genre.id %}" class="btn btn-secondary link-to-page">
+      Update
+    </a>
+  </h1>
+  <hr>
+{% endblock %}

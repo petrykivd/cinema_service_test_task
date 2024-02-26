@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>
+        Actors list
+        <a href="{% url 'movies:actor-create' %}" class="btn btn-primary link-to-page">
+            Add new actor
+        </a>
+    </h1>
+    <form method="get" action="" class="form-inline">
+        {{ search_form }}
+
+        <input type="submit" value="🔍">
+    </form>
+    <br>
+    {% if actor_list %}
+        <ul>
+            {% for actor in actor_list %}
+                <li>
+                    <a href="{% url "movies:actor-detail" pk=actor.id %} ">{{ actor.id }} {{ actor.full_name }}</a>
+
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>There are no actors in service</p>
+    {% endif %}
+{% endblock %}

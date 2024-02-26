@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>Actor:
+    {{ actor.full_name }}
+      <br>
+    <a href="{% url 'movies:actor-delete' pk=actor.id %}" class="btn btn-danger link-to-page">
+      Delete
+    </a>
+
+    <a href="{% url 'movies:actor-update' pk=actor.id %}" class="btn btn-secondary link-to-page">
+      Update
+    </a>
+  </h1>
+  <hr>
+{% endblock %}

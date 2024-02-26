@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>
+        Genre list
+        <a href="{% url 'movies:genre-create' %}" class="btn btn-primary link-to-page">
+            Add new genre
+        </a>
+    </h1>
+    <form method="get" action="" class="form-inline">
+        {{ search_form }}
+
+        <input type="submit" value="🔍">
+    </form>
+    <br>
+    {% if genre_list %}
+        <ul>
+            {% for genre in genre_list %}
+                <li>
+                    <a href="{% url "movies:genre-detail" pk=genre.id %} ">{{ genre.id }}</a>
+                    {{ genre.name }}
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>There are no genres in service</p>
+    {% endif %}
+{% endblock %}

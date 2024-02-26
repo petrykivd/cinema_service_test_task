@@ -1,0 +1,1898 @@
+[
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add actor",
+      "content_type": 7,
+      "codename": "add_actor"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change actor",
+      "content_type": 7,
+      "codename": "change_actor"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete actor",
+      "content_type": 7,
+      "codename": "delete_actor"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view actor",
+      "content_type": 7,
+      "codename": "view_actor"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add genre",
+      "content_type": 8,
+      "codename": "add_genre"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change genre",
+      "content_type": 8,
+      "codename": "change_genre"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete genre",
+      "content_type": 8,
+      "codename": "delete_genre"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view genre",
+      "content_type": 8,
+      "codename": "view_genre"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add movie",
+      "content_type": 9,
+      "codename": "add_movie"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change movie",
+      "content_type": 9,
+      "codename": "change_movie"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete movie",
+      "content_type": 9,
+      "codename": "delete_movie"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view movie",
+      "content_type": 9,
+      "codename": "view_movie"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "auth",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "movies",
+      "model": "actor"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "movies",
+      "model": "genre"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+      "app_label": "movies",
+      "model": "movie"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 1,
+    "fields": {
+      "full_name": "Rajendra Prasad"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 2,
+    "fields": {
+      "full_name": "Aamani"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 3,
+    "fields": {
+      "full_name": "Raja"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 4,
+    "fields": {
+      "full_name": "Divya Bisht"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 5,
+    "fields": {
+      "full_name": "Araceli Castellanos Gotte"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 6,
+    "fields": {
+      "full_name": "Belén Werbach"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 7,
+    "fields": {
+      "full_name": "AC/DC"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 8,
+    "fields": {
+      "full_name": "Angus Young"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 9,
+    "fields": {
+      "full_name": "Malcolm Young"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 10,
+    "fields": {
+      "full_name": "Brian Johnson"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 11,
+    "fields": {
+      "full_name": "Brad Pitt"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 12,
+    "fields": {
+      "full_name": "Tommy Lee Jones"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 13,
+    "fields": {
+      "full_name": "Ruth Negga"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 14,
+    "fields": {
+      "full_name": "Ranbir Kapoor"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 15,
+    "fields": {
+      "full_name": "Aishwarya Rai Bachchan"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 16,
+    "fields": {
+      "full_name": "Anushka Sharma"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 17,
+    "fields": {
+      "full_name": "Søren Pilmark"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 18,
+    "fields": {
+      "full_name": "Louise Mieritz"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 19,
+    "fields": {
+      "full_name": "Søren Fauli"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 20,
+    "fields": {
+      "full_name": "Tarik Akan"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 21,
+    "fields": {
+      "full_name": "Gülsen Bubikoglu"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 22,
+    "fields": {
+      "full_name": "Nilgün Atilgan"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 23,
+    "fields": {
+      "full_name": "Yûko Takeuchi"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 24,
+    "fields": {
+      "full_name": "Shidô Nakamura"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 25,
+    "fields": {
+      "full_name": "Akashi Takei"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 26,
+    "fields": {
+      "full_name": "RuPaul"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 27,
+    "fields": {
+      "full_name": "Izzy G."
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 28,
+    "fields": {
+      "full_name": "Michael-Leon Wooley"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 29,
+    "fields": {
+      "full_name": "Diedrich Bader"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 30,
+    "fields": {
+      "full_name": "Daniel Radcliffe"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 31,
+    "fields": {
+      "full_name": "Lin-Manuel Miranda"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 32,
+    "fields": {
+      "full_name": "Will Smith"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 33,
+    "fields": {
+      "full_name": "Alice Braga"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 34,
+    "fields": {
+      "full_name": "Charlie Tahan"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 35,
+    "fields": {
+      "full_name": "Martin Freeman"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 36,
+    "fields": {
+      "full_name": "Ian McKellen"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 37,
+    "fields": {
+      "full_name": "Richard Armitage"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 38,
+    "fields": {
+      "full_name": "Agie"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 39,
+    "fields": {
+      "full_name": "Helmi Dridi"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 40,
+    "fields": {
+      "full_name": "Ilian Ivanov"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 41,
+    "fields": {
+      "full_name": "Lena Nyman"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 42,
+    "fields": {
+      "full_name": "Tage Danielsson"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 43,
+    "fields": {
+      "full_name": "Georg Årlin"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 44,
+    "fields": {
+      "full_name": "Jack Nicholson"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 45,
+    "fields": {
+      "full_name": "Helen Hunt"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 46,
+    "fields": {
+      "full_name": "Greg Kinnear"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 47,
+    "fields": {
+      "full_name": "Johnny Depp"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 48,
+    "fields": {
+      "full_name": "Orlando Bloom"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 49,
+    "fields": {
+      "full_name": "Keira Knightley"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 50,
+    "fields": {
+      "full_name": "Jean Gabin"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 51,
+    "fields": {
+      "full_name": "René Dary"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 52,
+    "fields": {
+      "full_name": "Dora Doll"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 53,
+    "fields": {
+      "full_name": "You-Nam Wong"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 54,
+    "fields": {
+      "full_name": "Lawrence Chou"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 55,
+    "fields": {
+      "full_name": "Derek Tsang"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 56,
+    "fields": {
+      "full_name": "Hikmet Daragöz"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 57,
+    "fields": {
+      "full_name": "Hikmet Karagöz"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 58,
+    "fields": {
+      "full_name": "Teatra Jiyana Nû"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 59,
+    "fields": {
+      "full_name": "Sermiyan Midyat"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 60,
+    "fields": {
+      "full_name": "Katie Gill"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 61,
+    "fields": {
+      "full_name": "Steve Guttenberg"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 62,
+    "fields": {
+      "full_name": "Tamás Keresztes"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 63,
+    "fields": {
+      "full_name": "József Gyabronka"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 64,
+    "fields": {
+      "full_name": "Tibor Pálffy"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 65,
+    "fields": {
+      "full_name": "Jerzy Stuhr"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 66,
+    "fields": {
+      "full_name": "Krystyna Janda"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 67,
+    "fields": {
+      "full_name": "Kalina Jedrusik"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 68,
+    "fields": {
+      "full_name": "Jennifer Mae"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 69,
+    "fields": {
+      "full_name": "Kristian Hanson"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 70,
+    "fields": {
+      "full_name": "Victoria Fox"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 71,
+    "fields": {
+      "full_name": "Daniel Day-Lewis"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 72,
+    "fields": {
+      "full_name": "Paul Dano"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 73,
+    "fields": {
+      "full_name": "Ciarán Hinds"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 74,
+    "fields": {
+      "full_name": "Takuya Kimura"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 75,
+    "fields": {
+      "full_name": "Takumi Saitô"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 76,
+    "fields": {
+      "full_name": "Nanao"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 77,
+    "fields": {
+      "full_name": "Deven Bhojani"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 78,
+    "fields": {
+      "full_name": "Suchita Trivedi"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 79,
+    "fields": {
+      "full_name": "Sarita Joshi"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 80,
+    "fields": {
+      "full_name": "Taha Ulukaya"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 81,
+    "fields": {
+      "full_name": "Sebahat Adalar"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 82,
+    "fields": {
+      "full_name": "Andac Semerci"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 83,
+    "fields": {
+      "full_name": "Björn Nordqvist"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 84,
+    "fields": {
+      "full_name": "Johan Hedenberg"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 85,
+    "fields": {
+      "full_name": "Gustaf Appelberg"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 86,
+    "fields": {
+      "full_name": "Vachirawit Chivaaree"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 87,
+    "fields": {
+      "full_name": "Metawin Opas-Iamkajorn"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 88,
+    "fields": {
+      "full_name": "Anusorn Soisa-Ngim"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 89,
+    "fields": {
+      "full_name": "Ella-June Henrard"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 90,
+    "fields": {
+      "full_name": "Thomas Ryckewaert"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 91,
+    "fields": {
+      "full_name": "Kalina Malehounova"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 92,
+    "fields": {
+      "full_name": "Dániel Blik"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 93,
+    "fields": {
+      "full_name": "Bobakrome"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 94,
+    "fields": {
+      "full_name": "Busa"
+    }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 1,
+    "fields": {
+      "name": "Drama"
+    }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 2,
+    "fields": {
+      "name": "Documentary"
+    }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 3,
+    "fields": {
+      "name": "Music"
+    }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 4,
+    "fields": {
+      "name": "Adventure"
+    }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 5,
+    "fields": {
+      "name": "Mystery"
+    }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 6,
+    "fields": {
+      "name": "Musical"
+    }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 7,
+    "fields": {
+      "name": "Comedy"
+    }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 8,
+    "fields": {
+      "name": "Sci-Fi"
+    }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 9,
+    "fields": {
+      "name": "Romance"
+    }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 10,
+    "fields": {
+      "name": "Fantasy"
+    }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 11,
+    "fields": {
+      "name": "Crime"
+    }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 12,
+    "fields": {
+      "name": "Action"
+    }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 13,
+    "fields": {
+      "name": "Horror"
+    }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 14,
+    "fields": {
+      "name": "History"
+    }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 15,
+    "fields": {
+      "name": "Family"
+    }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 16,
+    "fields": {
+      "name": "Short"
+    }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 17,
+    "fields": {
+      "name": "Thriller"
+    }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 18,
+    "fields": {
+      "name": "Sport"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 1,
+    "fields": {
+      "title": "Aa Naluguru",
+      "release_year": 2004,
+      "director": "Chandra Siddhartha",
+      "runtime": 141,
+      "imdb": 8.6,
+      "country": "India",
+      "description": "A man fights for his philosophy: that human relations are more important than money.",
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BNGZjNDBhNGQtM2M4Ny00ZTVhLTk4ZWMtNDMyNzQ2Mjk0ZGJhXkEyXkFqcGdeQXVyNjQ1MDcxNzM@._V1_SX300.jpg",
+      "actors": [
+        2,
+        3,
+        1
+      ],
+      "genres": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 2,
+    "fields": {
+      "title": "Ab",
+      "release_year": 2013,
+      "director": "Iván Fund, Andreas Koefoed",
+      "runtime": 67,
+      "imdb": 5.3,
+      "country": "Argentina, Denmark",
+      "description": "N/A",
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BNmYyMzFmMjYtNDU4Ni00ZTM1LWJkMGQtYjZhZTk0OTEzNjE2XkEyXkFqcGdeQXVyODIxNzQ4MDU@._V1_SX300.jpg",
+      "actors": [
+        5,
+        6,
+        4
+      ],
+      "genres": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 3,
+    "fields": {
+      "title": "AC/DC: Live at Donington",
+      "release_year": 1992,
+      "director": "David Mallet",
+      "runtime": 120,
+      "imdb": 8.5,
+      "country": "UK",
+      "description": "Filmed coverage of legendary Australian band AC/DC's third headlining show at the \"Monsters of Rock\" festival in Castle Donington, UK.",
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BMTU2MjIwMDc4M15BMl5BanBnXkFtZTcwMTc3MzE2MQ@@._V1_SX300.jpg",
+      "actors": [
+        7,
+        8,
+        10,
+        9
+      ],
+      "genres": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 4,
+    "fields": {
+      "title": "Ad Astra",
+      "release_year": 2019,
+      "director": "James Gray",
+      "runtime": 123,
+      "imdb": 6.5,
+      "country": "United States, China, Brazil",
+      "description": "Astronaut Roy McBride undertakes a mission across an unforgiving solar system to uncover the truth about his missing father and his doomed expedition that now, 30 years later, threatens the universe.",
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BZDE0ZjNjMTktYmIwMC00ODZjLWIwNGMtODM3MWZhMGM1NWFhXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg",
+      "actors": [
+        11,
+        13,
+        12
+      ],
+      "genres": [
+        4,
+        1,
+        5
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 5,
+    "fields": {
+      "title": "Ae Dil Hai Mushkil",
+      "release_year": 2016,
+      "director": "Karan Johar",
+      "runtime": 158,
+      "imdb": 5.8,
+      "country": "India",
+      "description": "This story explores love - the shapes it takes, the ways it changes us and the exhilarating and often terrifying ride it takes us on. It is the journey of two characters, Alizeh and Ayan, as they navigate life, love and heartbreak.",
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BOTc3ODMwMWItMjI0NC00YmM1LWIxZmItZDk2NjQ1NzQ1ZTVmXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg",
+      "actors": [
+        15,
+        16,
+        14
+      ],
+      "genres": [
+        1,
+        3,
+        6
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 6,
+    "fields": {
+      "title": "Hvordan vi slipper af med de andre",
+      "release_year": 2007,
+      "director": "Anders Rønnow Klarlund",
+      "runtime": 94,
+      "imdb": 5.9,
+      "country": "Denmark",
+      "description": "A satirical drama revealing the consequences of the Danish government's \"New Copenhagen Criteria\", a new policy aiming at securing the nation's survival. Citizens who fail to meet the criteria - those who have received more from s...",
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BMTU0NDc0NjQxOF5BMl5BanBnXkFtZTcwNDcyOTc0MQ@@._V1_SX300.jpg",
+      "actors": [
+        18,
+        19,
+        17
+      ],
+      "genres": [
+        7,
+        1,
+        8
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 7,
+    "fields": {
+      "title": "Ah Nerede",
+      "release_year": 1975,
+      "director": "Orhan Aksoy",
+      "runtime": 90,
+      "imdb": 7.6,
+      "country": "Turkey",
+      "description": "Three boys are having their higher education in Istanbul. In fact, they are messing around and dealing with radical politics, girls and gamble. However the oldest discovers love, and the three realize that it is time to change.",
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BYmMwYzZhMDUtNTRmNi00YTk3LWIwNDQtNmM4NzU0NzAzMDdmXkEyXkFqcGdeQXVyMjExNjgyMTc@._V1_SX300.jpg",
+      "actors": [
+        21,
+        22,
+        20
+      ],
+      "genres": [
+        7,
+        9
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 8,
+    "fields": {
+      "title": "Ima, ai ni yukimasu",
+      "release_year": 2004,
+      "director": "Nobuhiro Doi",
+      "runtime": 119,
+      "imdb": 7.8,
+      "country": "Japan",
+      "description": "A young woman returns from the dead to her guilt-ridden husband and son, but she cannot remember them.",
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BZDM3NjVhMWYtMDhlYi00YzhlLWJkZmUtMmM4ODM3NTBjMjhlXkEyXkFqcGdeQXVyNjc3MjQzNTI@._V1_SX300.jpg",
+      "actors": [
+        25,
+        24,
+        23
+      ],
+      "genres": [
+        1,
+        10,
+        9
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 9,
+    "fields": {
+      "title": "AJ and the Queen",
+      "release_year": 2020,
+      "director": "N/A",
+      "runtime": 52,
+      "imdb": 7.5,
+      "country": "United States",
+      "description": "Ruby Red, a down-on-her-luck drag queen traveling across America, develops an unlikely sidekick named AJ.",
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BYjIyMjRmZWUtZTYwYS00ZjNjLTgwMDktZTEwMTBjOGYxMmUzXkEyXkFqcGdeQXVyNTQ1NTExNzM@._V1_SX300.jpg",
+      "actors": [
+        27,
+        28,
+        26
+      ],
+      "genres": [
+        4,
+        7,
+        1
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 10,
+    "fields": {
+      "title": "Weird: The Al Yankovic Story",
+      "release_year": 2022,
+      "director": "Eric Appel",
+      "runtime": 108,
+      "imdb": 6.9,
+      "country": "United States",
+      "description": "Explores every facet of Yankovic's life, from his meteoric rise to fame with early hits like 'Eat It' and 'Like a Surgeon' to his torrid celebrity love affairs and famously depraved lifestyle.",
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BOWRiNmI1OTItYjc0Zi00YTYwLWI4OTEtMmE0YTNlODJkOTQwXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SX300.jpg",
+      "actors": [
+        30,
+        29,
+        31
+      ],
+      "genres": [
+        7,
+        11,
+        3
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 11,
+    "fields": {
+      "title": "I Am Legend",
+      "release_year": 2007,
+      "director": "Francis Lawrence",
+      "runtime": 101,
+      "imdb": 7.2,
+      "country": "United States",
+      "description": "Years after a plague kills most of humanity and transforms the rest into monsters, the sole survivor in New York City struggles valiantly to find a cure.",
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BYTE1ZTBlYzgtNmMyNS00ZTQ2LWE4NjEtZjUxNDJkNTg2MzlhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
+      "actors": [
+        33,
+        34,
+        32
+      ],
+      "genres": [
+        12,
+        1,
+        13
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 12,
+    "fields": {
+      "title": "The Hobbit: An Unexpected Journey",
+      "release_year": 2012,
+      "director": "Peter Jackson",
+      "runtime": 169,
+      "imdb": 7.8,
+      "country": "New Zealand, United States",
+      "description": "A reluctant Hobbit, Bilbo Baggins, sets out to the Lonely Mountain with a spirited group of dwarves to reclaim their mountain home, and the gold within it from the dragon Smaug.",
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BMTcwNTE4MTUxMl5BMl5BanBnXkFtZTcwMDIyODM4OA@@._V1_SX300.jpg",
+      "actors": [
+        36,
+        35,
+        37
+      ],
+      "genres": [
+        4,
+        10
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 13,
+    "fields": {
+      "title": "Ao, le dernier Néandertal",
+      "release_year": 2010,
+      "director": "Jacques Malaterre",
+      "runtime": 84,
+      "imdb": 6.3,
+      "country": "France",
+      "description": "When his clan, including his wife and baby girl Néa, are massacred, Ao, a desperate Neanderthal, decides to leave the North country where he has been living for the South where he was born. His aim is to join his twin brother, fro...",
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BMjk3NWNmMTQtMTVhOC00MGViLTk0MjAtN2M0OWVjNmNjMzY1XkEyXkFqcGdeQXVyNDUxNjc5NjY@._V1_SX300.jpg",
+      "actors": [
+        38,
+        39,
+        40
+      ],
+      "genres": [
+        4,
+        14
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 14,
+    "fields": {
+      "title": "Släpp fångarne loss - det är vår!",
+      "release_year": 1975,
+      "director": "Tage Danielsson",
+      "runtime": 97,
+      "imdb": 6.2,
+      "country": "Sweden",
+      "description": "Small and short Frida lives with her long, tall friend in a house in the countryside. Frida rejects the idea that people who has committed crimes should be locked up. One day their own house is burgled by Harald. He is sentenced t...",
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BMmYwYjc1OTAtYWMwOS00YmRkLWFhZmItZTE0MDA1YWU2NTAwXkEyXkFqcGdeQXVyMzU0NzkwMDg@._V1_SX300.jpg",
+      "actors": [
+        43,
+        41,
+        42
+      ],
+      "genres": [
+        7,
+        15
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 15,
+    "fields": {
+      "title": "As Good as It Gets",
+      "release_year": 1997,
+      "director": "James L. Brooks",
+      "runtime": 139,
+      "imdb": 7.7,
+      "country": "United States",
+      "description": "A single mother and waitress, a misanthropic author, and a gay artist form an unlikely friendship after the artist is assaulted in a robbery.",
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BNWMxZTgzMWEtMTU0Zi00NDc5LWFkZjctMzUxNDIyNzZiMmNjXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+      "actors": [
+        46,
+        45,
+        44
+      ],
+      "genres": [
+        7,
+        1,
+        9
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 16,
+    "fields": {
+      "title": "Pirates of the Caribbean: At World's End",
+      "release_year": 2007,
+      "director": "Gore Verbinski",
+      "runtime": 169,
+      "imdb": 7.1,
+      "country": "United States",
+      "description": "Captain Barbossa, Will Turner and Elizabeth Swann must sail off the edge of the map, navigate treachery and betrayal, find Jack Sparrow, and make their final alliances for one last decisive battle.",
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BMjIyNjkxNzEyMl5BMl5BanBnXkFtZTYwMjc3MDE3._V1_SX300.jpg",
+      "actors": [
+        47,
+        49,
+        48
+      ],
+      "genres": [
+        12,
+        4,
+        10
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 17,
+    "fields": {
+      "title": "Touchez pas au grisbi",
+      "release_year": 1954,
+      "director": "Jacques Becker",
+      "runtime": 96,
+      "imdb": 7.7,
+      "country": "Italy, France",
+      "description": "An aging, world-weary gangster is double-crossed and forced out of retirement when his best friend is kidnapped and their stash of eight stolen gold bars demanded as ransom.",
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BYmIwZTczNzgtODk0NC00YjFkLTkzZDctMzAzMDdjOTE5MWZlXkEyXkFqcGdeQXVyOTI2MjI5MQ@@._V1_SX300.jpg",
+      "actors": [
+        52,
+        50,
+        51
+      ],
+      "genres": [
+        11,
+        1
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 18,
+    "fields": {
+      "title": "AV",
+      "release_year": 2005,
+      "director": "Ho-Cheung Pang",
+      "runtime": 103,
+      "imdb": 6.8,
+      "country": "Hong Kong",
+      "description": "Students decide to make porn films so they can sleep with an actress.",
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BMzI2OGViODItZDA5OS00Y2QxLTlmOGMtNDI2MmY2NjU0ZmZkXkEyXkFqcGdeQXVyMjY0MDY4Mjk@._V1_SX300.jpg",
+      "actors": [
+        55,
+        54,
+        53
+      ],
+      "genres": [
+        7,
+        1,
+        9
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 19,
+    "fields": {
+      "title": "Ax",
+      "release_year": 1999,
+      "director": "Kazim Öz",
+      "runtime": 27,
+      "imdb": 6.4,
+      "country": "Turkey",
+      "description": "N/A",
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BYjRlMGYxMjUtMTBmMi00YWRkLTk2MjgtYzQxZDZjMGE3MTFjXkEyXkFqcGdeQXVyNDY2OTk5NTc@._V1_SX300.jpg",
+      "actors": [
+        56,
+        57,
+        58
+      ],
+      "genres": [
+        16
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 20,
+    "fields": {
+      "title": "Ay Lav Yu",
+      "release_year": 2010,
+      "director": "Sermiyan Midyat",
+      "runtime": 102,
+      "imdb": 5.5,
+      "country": "Turkey",
+      "description": "Ibrahim returns to Tinne, along with his girlfriend, Jessica, but will the tiny village become their new home?",
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BOWJhYjdhZjYtOGJkMS00ZDJhLTk5MzMtMGQ4NmE3NWQ3ZDBmXkEyXkFqcGdeQXVyNTM3NzExMDQ@._V1_SX300.jpg",
+      "actors": [
+        60,
+        59,
+        61
+      ],
+      "genres": [
+        7
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 21,
+    "fields": {
+      "title": "Lajkó - Cigány az ürben",
+      "release_year": 2018,
+      "director": "Balázs Lengyel",
+      "runtime": 90,
+      "imdb": 5.9,
+      "country": "Hungary",
+      "description": "In early 1957, the Soviet Union decides to give Hungary the honor of providing the first cosmonaut to orbit in space. The most suitable candidate turns out to be Lajos Serbán, known to all as Lajkó, whose life as a pilot reflects ...",
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BNDE2NDE5MDMtMzEwOS00YmFkLWFiYzAtOTQ1NzRiOWM4NjU3XkEyXkFqcGdeQXVyNTkzMzMyNDA@._V1_SX300.jpg",
+      "actors": [
+        63,
+        62,
+        64
+      ],
+      "genres": [
+        7,
+        1
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 22,
+    "fields": {
+      "title": "O-Bi, O-Ba: The End of Civilization",
+      "release_year": 1985,
+      "director": "Piotr Szulkin",
+      "runtime": 88,
+      "imdb": 7.2,
+      "country": "Poland",
+      "description": "A man searches for survival after nuclear war forces people into an underground bunker. The inhabitants await rescue while their refuge decays around them.",
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BYWVmYWY5OGMtY2U0MC00ODg2LTk1YjYtMGU2MjA4MDg1MWU3XkEyXkFqcGdeQXVyMTc4MzI2NQ@@._V1_SX300.jpg",
+      "actors": [
+        65,
+        67,
+        66
+      ],
+      "genres": [
+        1,
+        5,
+        8
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 23,
+    "fields": {
+      "title": "Bb",
+      "release_year": 2016,
+      "director": "C.J. Wallis",
+      "runtime": 72,
+      "imdb": 5.1,
+      "country": "United States, Canada",
+      "description": "BB is the provocative story of a girl named Leah who, under the name \"Candy Cummings\", performs strip shows online from her apartment for thousands of strangers every day, never fully knowing the extent of evils that could be watc...",
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BMTUxMjk1NDU4M15BMl5BanBnXkFtZTgwMzYyMzI2MzE@._V1_SX300.jpg",
+      "actors": [
+        68,
+        69,
+        70
+      ],
+      "genres": [
+        1,
+        5,
+        17
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 24,
+    "fields": {
+      "title": "There Will Be Blood",
+      "release_year": 2007,
+      "director": "Paul Thomas Anderson",
+      "runtime": 158,
+      "imdb": 8.2,
+      "country": "United States",
+      "description": "A story of family, religion, hatred, oil and madness, focusing on a turn-of-the-century prospector in the early days of the business.",
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BMjAxODQ4MDU5NV5BMl5BanBnXkFtZTcwMDU4MjU1MQ@@._V1_SX300.jpg",
+      "actors": [
+        73,
+        71,
+        72
+      ],
+      "genres": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 25,
+    "fields": {
+      "title": "BG: Personal Bodyguard",
+      "release_year": 2018,
+      "director": "N/A",
+      "runtime": 54,
+      "imdb": 6.6,
+      "country": "Japan",
+      "description": "A man who used to work as a bodyguard now works as a security guard at a construction site due to an incident. The company where he works establishes a new bodyguard division and he then starts to work again there as a novice body...",
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BODE0NDczMGItYzRkNS00OWQ2LThkMDEtNzM0MTY1OGYxNjhhXkEyXkFqcGdeQXVyMzQ5MzAyMzI@._V1_SX300.jpg",
+      "actors": [
+        76,
+        75,
+        74
+      ],
+      "genres": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 26,
+    "fields": {
+      "title": "Bh Se Bhade",
+      "release_year": 2013,
+      "director": "N/A",
+      "runtime": 40,
+      "imdb": 7.1,
+      "country": "India",
+      "description": "A kind-hearted insurance agent has the mysterious power to temporarily shoulder the problems and pain of others, with comic results in his own life.",
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BZjkwZjg3ZDAtNzk0Mi00Y2YzLWE0ZGEtM2Y0ODFiNDY5MTMzXkEyXkFqcGdeQXVyNzM4MjU3NzY@._V1_SX300.jpg",
+      "actors": [
+        77,
+        79,
+        78
+      ],
+      "genres": [
+        7
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 27,
+    "fields": {
+      "title": "B.O.K.: Bi O Kalmisti",
+      "release_year": 2016,
+      "director": "Burak Babayigit",
+      "runtime": 95,
+      "imdb": 3.6,
+      "country": "Turkey",
+      "description": "N/A",
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BZjJkYWM0OTUtZThiNy00ZmQ1LTg2Y2QtYTQ2N2ExZjQzM2JjXkEyXkFqcGdeQXVyNTM0Mjk0NDk@._V1_SX300.jpg",
+      "actors": [
+        82,
+        81,
+        80
+      ],
+      "genres": [
+        7
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 28,
+    "fields": {
+      "title": "Åshöjdens BK",
+      "release_year": 1985,
+      "director": "N/A",
+      "runtime": 345,
+      "imdb": 7.3,
+      "country": "Sweden",
+      "description": "When the legendary football player Bagarn Olsson moves to small town Åshöjden, the boys learn how to kick some balls, and to rock n' roll with The Nautilus.",
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BMTJmNmI1ZWMtYjU2Mi00NjA4LTgyODYtMTgzNWU3ZDAzMDMxXkEyXkFqcGdeQXVyMjUyNDk2ODc@._V1_SX300.jpg",
+      "actors": [
+        83,
+        85,
+        84
+      ],
+      "genres": [
+        18
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 29,
+    "fields": {
+      "title": "BL",
+      "release_year": 2020,
+      "director": "Anusorn Soisa-Ngim",
+      "runtime": 20,
+      "imdb": 9.4,
+      "country": "Thailand",
+      "description": "N/A",
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BOTg3OWUwY2QtMWQwOC00YTVmLWIxMDktNGM5NGE5MDk4ZmIxXkEyXkFqcGdeQXVyNzg4NzM1MzQ@._V1_SX300.jpg",
+      "actors": [
+        88,
+        87,
+        86
+      ],
+      "genres": [
+        2,
+        16
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 30,
+    "fields": {
+      "title": "Bo",
+      "release_year": 2010,
+      "director": "Hans Herbots",
+      "runtime": 100,
+      "imdb": 6.1,
+      "country": "Belgium",
+      "description": "Fifteen year old Deborah wants to escape her dull suburb and enjoy the luring city of Antwerp. Her new eighteen year old friend Jennifer leads her into the sparkling downtown nightlife. When Jennifer admits she's an escort girl, D...",
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BMjI1NTYxYmYtNDZkNS00YWY4LTgxZTUtNzc5MTA0NjY2MjdkXkEyXkFqcGdeQXVyMzQzMzc4MzQ@._V1_SX300.jpg",
+      "actors": [
+        89,
+        91,
+        90
+      ],
+      "genres": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 31,
+    "fields": {
+      "title": "BP Underground - Hip Hop",
+      "release_year": 2018,
+      "director": "Anna Koltay, Esther Turan",
+      "runtime": 86,
+      "imdb": 7.5,
+      "country": "Hungary",
+      "description": "BP Underground is a documentary project exploring the underground youth subcultures of Budapest, Hungary in the 90s and 2000s, right after the iron curtain fell.",
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BNzYyMGQzNWQtMjIxYS00NjhmLWJmYjEtYWE4YzA2YzhlMDJmXkEyXkFqcGdeQXVyMTQyMTY4MzI@._V1_SX300.jpg",
+      "actors": [
+        93,
+        94,
+        92
+      ],
+      "genres": [
+        2,
+        3
+      ]
+    }
+  }
+]

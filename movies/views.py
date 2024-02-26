@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from django.views import generic
 
 from movies.models import Movie, Actor, Genre
 
@@ -11,3 +12,8 @@ def index(request):
     }
 
     return render(request, "movies/index.html", context=context)
+
+
+class MovieListView(generic.ListView):
+    model = Movie
+    paginate_by = 25

@@ -31,3 +31,9 @@ class Movie(models.Model):
     country = models.CharField(max_length=255)
     description = models.TextField()
     genres = models.ManyToManyField(Genre, related_name='movies')
+
+    def __str__(self):
+        return f"{self.id} {self.title}"
+
+    class Meta:
+        ordering = ('title',)

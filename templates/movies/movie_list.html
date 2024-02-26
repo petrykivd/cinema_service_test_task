@@ -1,11 +1,63 @@
 {% extends "base.html" %}
+
 {% block content %}
-	{% if movie_list %}
-		<h1>Movie list</h1>
-    {% for movie in movie_list %}
-    	<li><a href="{{ movie.get_absolute_url }}">{{ movie.id }}. {{ movie.title }}</a></li>
-    {% endfor %}
-  {% else %}
-    <h1>Movie list is empty</h1>
-	{% endif %}
+    <h1>
+        Movie List
+        <a href="{% url 'movies:movie-create' %}" class="btn btn-primary link-to-page">
+            Create
+        </a>
+    </h1>
+    <form method="get" action="" class="form-inline">
+        {{ search_form }}
+
+        <input type="submit" value="🔍">
+    </form>
+    <br>
+    {% if movie_list %}
+        <table class="table">
+            <tr>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Release year</th>
+                <th>Genres</th>
+                <th>Director</th>
+                <th>Update</th>
+                <th>Delete</th>
+            </tr>
+
+            {% for movie in movie_list %}
+                <tr>
+                    <td>
+                        {{ movie.id }}
+                    </td>
+                    <td>
+                        {{ movie.title }}
+                    </td>
+                    <td>
+                        {{ movie.release_year }}
+                    </td>
+                    <td>
+                        {{ movie.genres }}
+                    </td>
+                    <td>
+                        {{ movie.director }}
+                    </td>
+                    <td>
+                        <a href="{% url 'movies:movie-update' pk=movie.id %}">
+                            Update
+                        </a>
+                    </td>
+                    <td>
+                        <a style="color: red"
+                           href="{% url 'movies:movie-delete' pk=movie.id %}">
+                            Delete
+                        </a>
+                    </td>
+                </tr>
+            {% endfor %}
+        </table>
+
+    {% else %}
+        <p>There are no movies in the service.</p>
+    {% endif %}
 {% endblock %}

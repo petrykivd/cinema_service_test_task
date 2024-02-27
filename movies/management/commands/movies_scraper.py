@@ -1,12 +1,15 @@
+import os
 import string
 
 import requests
 from django.core.management import BaseCommand
+from dotenv import load_dotenv
 
 from movies.models import Movie, Genre, Actor
 
+load_dotenv()
 
-API_KEY = "2843bc95"
+API_KEY = os.getenv("OMDB_API_KEY")
 
 
 def populate_database(api_key):

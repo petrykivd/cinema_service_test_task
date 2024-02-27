@@ -7,7 +7,16 @@ class MovieModelTestCase(TestCase):
     def setUp(self):
         self.actor = Actor.objects.create(full_name="John Doe")
         self.genre = Genre.objects.create(name="Action")
-        self.movie = Movie.objects.create(title="Test Movie", release_year=2022, director="Test Director", runtime=120, imdb=7.5, country="USA", description="Test Description", poster_url="https://example.com")
+        self.movie = Movie.objects.create(
+            title="Test Movie",
+            release_year=2022,
+            director="Test Director",
+            runtime=120,
+            imdb=7.5,
+            country="USA",
+            description="Test Description",
+            poster_url="https://example.com"
+        )
 
     def test_movie_creation(self):
         self.assertEqual(self.movie.title, "Test Movie")
@@ -33,6 +42,15 @@ class ViewsTestCase(TestCase):
         self.assertEqual(response.status_code, 200)
 
     def test_movie_detail_view(self):
-        movie = Movie.objects.create(title="Test Movie", release_year=2022, director="Test Director", runtime=120, imdb=7.5, country="USA", description="Test Description", poster_url="https://example.com")
+        movie = Movie.objects.create(
+            title="Test Movie",
+            release_year=2022,
+            director="Test Director",
+            runtime=120,
+            imdb=7.5,
+            country="USA",
+            description="Test Description",
+            poster_url="https://example.com"
+        )
         response = self.client.get(reverse("movies:movie-detail", kwargs={"pk": movie.pk}))
         self.assertEqual(response.status_code, 200)

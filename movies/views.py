@@ -2,7 +2,13 @@ from django.shortcuts import render
 from django.urls import reverse_lazy
 from django.views import generic
 
-from movies.forms import MovieNameSearchForm, GenreSearchForm, GenreForm, ActorSearchForm, ActorForm
+from movies.forms import (
+    MovieNameSearchForm,
+    GenreSearchForm,
+    GenreForm,
+    ActorSearchForm,
+    ActorForm
+)
 from movies.models import Movie, Actor, Genre
 
 from django_filters.views import FilterView
